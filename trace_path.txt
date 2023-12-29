@@ -1,0 +1,23 @@
+**/home/ubuntu20/Computer_Structer/ChampSim/tracer/champsim_tracer.out**
+
+**./config.sh champsim_config.json**
+**make**
+
+/home/ubuntu20/下载/600.perlbench_s-210B.champsimtrace.xz
+
+bin/champsim --warmup-instructions 50 --simulation-instructions 300 /home/ubuntu20/Computer_Structer/ChampSim/tracer/champsim_tracer.out
+
+bin/champsim --warmup-instructions 200000000 --simulation-instructions 500000000 /home/ubuntu20/Computer_Structer/ChampSim/trace/600.perlbench_s-210B.champsimtrace.xz
+
+
+bin/champsim --warmup-instructions 200000000 --simulation-instructions 500000000 /home/ubuntu20/Computer_Structer/ChampSim/trace/648.exchange2_s-72B.champsimtrace.xz
+
+./config.sh /home/ubuntu20/Computer_Structer/ChampSim/JSON/lab1/srrip.json
+
+./config.sh /home/ubuntu20/Computer_Structer/ChampSim/JSON/lab2/srrip.json
+
+./config.sh /home/ubuntu20/Computer_Structer/ChampSim/JSON/lab3/srrip.json
+
+600.perlbench_s-210B.champsimtrace.xz
+649.fotonik3d_s-1B.champsimtrace.xz
+657.xz_s-56B.champsimtrace.xz
